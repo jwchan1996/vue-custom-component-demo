@@ -1,0 +1,26 @@
+{
+  "name": "vue-custom-component-demo",
+  "version": "1.0.0",
+  "author": "jwchan <741755613@qq.com>",
+  "main": "index.js",
+  "dependencies": {
+    "element-ui": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "vue-cli-plugin-element": "~1.0.1"
+  },
+  "license": "MIT",
+  "repository": "git@github.com:jwchan1996/vue-custom-component-demo.git",
+  "babel": {
+    "plugins": [
+      [
+        "component",
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+      ]
+    ]
+  }
+}
