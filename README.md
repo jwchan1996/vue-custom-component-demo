@@ -13,3 +13,9 @@ vue add element
 ```
 
 进入命令行交互，选择按需导入，然后中文。
+
+## 预览组件
+
+```bash
+vue serve ./src/login.vue
+```
